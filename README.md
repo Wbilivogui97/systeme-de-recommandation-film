@@ -1,7 +1,7 @@
 # **Système de Recommandation de Films**
 
 ## **Auteurs**  
-Ce projet a été réalisé par WOYE BALLA BILIVOGUI et MOHAMED MARIE CAMARA dans le cadre du cours de **Data Mining**.
+Ce projet a été réalisé par WOYE BALLA BILIVOGUI,KERFALLA SYLLA et MOHAMED MARIE CAMARA dans le cadre du cours de **Data Mining**.
 
 ## **Contexte du Projet**  
 L’objectif principal de ce projet était de concevoir un système capable de recommander des films aux utilisateurs en fonction de leurs préférences ou d’autres critères, tels que :  
@@ -9,7 +9,7 @@ L’objectif principal de ce projet était de concevoir un système capable de r
 - **Le réalisateur** ou les vedettes principales.  
 - **L'année de sortie** ou la popularité.  
 
-Nous avons utilisé différentes techniques apprises en cours pour développer une solution robuste, en appliquant des concepts de filtrage basé sur le contenu et de similarité.
+Nous avons utilisé différentes techniques apprises en cours de data mining pour développer une solution robuste, en appliquant des concepts de filtrage collaboratif et de similarité.
 
 ## **Colonnes du Jeu de Données**  
 Le jeu de données utilisé contient les informations suivantes :  
@@ -54,7 +54,7 @@ La similarité entre les films a été calculée en utilisant :
    - Création d'une fonction permettant de suggérer des films similaires à un titre donné.
 
 ## **Technologies Utilisées**
-- **Python** : Langage principal pour le traitement des données et la construction du modèle.
+- **Python3.11** : Langage principal pour le traitement des données et la construction du modèle.
 - **Bibliothèques** :
   - `pandas` : Manipulation et nettoyage des données.
   - `numpy` : Calculs numériques avancés.
@@ -68,7 +68,9 @@ Pour obtenir des recommandations de films :
 recommend_movies("The Shining")
 Le système renverra une liste de films similaires en fonction des caractéristiques de "The Shining".
 ## **Résultats Attendus**
-- **Recommandations pertinentes** : En fonction du genre, du réalisateur et d'autres caractéristiques.  
-- **Flexibilité** : Possibilité de personnaliser les critères de similarité.  
-## **Contribution**
+- **Recommandations pertinentes** :
+En fonction du genre, du réalisateur et d'autres caractéristiques.  
+- **Flexibilité** :
+ Possibilité de personnaliser les critères de similarité.  
+## Contribution
 Ce projet a été réalisé en équipe pour encourager la collaboration et l'application des concepts théoriques de **Data Mining** à un cas pratique.
